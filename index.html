@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>IIDX Hi-Speed Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class='pageHeader'>
+            <h1 class='titleText'>IIDX Hi-Speed Calculator</h1>
+            <p style="margin-top:0px; text-align:right;">Made by spicakitty</p>
+        </div>
+        <label for="styleSelect">Current Style: </label>
+        <select id="styleSelect" name="styleSelect" onchange="changeStyle();">
+            <option value="0">3rd Style</option>
+            <option value="1">4th Style</option>
+            <option value="2">5th Style</option>
+            <option value="3">6th Style</option>
+            <option value="4">7th Style</option>
+            <option value="5">8th Style</option>
+            <option value="6">9th Style</option>
+            <option value="7">10th Style</option>
+            <option value="8">RED</option>
+            <option value="9">HAPPY SKY</option>
+            <option value="10">DistorteD</option>
+            <option value="11">GOLD-EMPRESS</option>
+            <option value="12">Sakura</option>
+            <option value="13">PSM</option>
+            <!-- <option value="14">MODERN?</option> -->
+        </select>
+        <div>
+        <p id="currentPlaystyleText" style="display: inline-block; width: 100px; margin-top: 0px; margin-bottom: 0px;"></p>
+        <button onclick="togglePlaystyle(this)">Toggle Playstyle</button>
+        <button onclick="editGN()">Edit GN</button>
+        </div>
+
+        <input type="checkbox" id="ignoreSL" name="ignoreSL" value="true" onchange="toggleScreenLimit();">
+        <label for="ignoreSL">Ignore Screen Limits</label><br>
+
+        <!-- <div class='parent'>
+            <div class='child float-left-child'><p id="currentPlaystyleText"></p></div>
+            <div class='child float-left-child'><button onclick="togglePlaystyle(this)">Toggle Playstyle</button></div>
+        </div> -->
+
+        <div>
+        <p id="currentBPM" style="display: inline-block;">BPM: </p>
+        <input type="text" id="bpminput" onchange="update();">
+        <button onclick="BPMbuttons(-10)">--</button>
+        <button onclick="BPMbuttons(-1)">-</button>
+        <button onclick="BPMbuttons(1)">+</button>
+        <button onclick="BPMbuttons(10)">++</button>
+        </div>
+
+        <table id="hstable">
+            <tr>
+                <th>HiSpeed</th>
+                <th>Multiplier</th>
+                <th>Max BPM</th>
+                <th>White Number</th>
+                <th>Towel</th> 
+            </tr>
+        </table>
+
+        <script src="script.js">  </script>
+    </body>
+</html>
