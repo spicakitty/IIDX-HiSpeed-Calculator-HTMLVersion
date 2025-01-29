@@ -37,36 +37,36 @@ class Style {
 }
 
 var styles = new Array();
-styles[0] = new Style("3rd Style",75,new Array(new HiSpeed("LS2",0.33),
+styles[0] = new Style("3rd Style",43,new Array(new HiSpeed("LS2",0.33),
                                                 new HiSpeed("LS1",0.5),
                                                 new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",2),
                                                 new HiSpeed("HS2",3),
                                                 new HiSpeed("HS3",4)));
-styles[1] = new Style("4th Style",75,new Array(new HiSpeed("LS2",0.33),
+styles[1] = new Style("4th Style",43,new Array(new HiSpeed("LS2",0.33),
                                                 new HiSpeed("LS1",0.5),
                                                 new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",2),
                                                 new HiSpeed("HS2",2.75),
                                                 new HiSpeed("HS3",3.5)));
-styles[2] = new Style("5th Style",75,new Array(new HiSpeed("LS2",0.33),
+styles[2] = new Style("5th Style",118,new Array(new HiSpeed("LS2",0.33),
                                                 new HiSpeed("LS1",0.5),
                                                 new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",2),
                                                 new HiSpeed("HS2",2.5),
                                                 new HiSpeed("HS3",3)));
-styles[3] = new Style("6th Style",75,new Array(new HiSpeed("LS1",0.5),
+styles[3] = new Style("6th Style",78,new Array(new HiSpeed("LS1",0.5),
                                                 new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",2),
                                                 new HiSpeed("HS2",2.5),
                                                 new HiSpeed("HS3",3),
                                                 new HiSpeed("HS4",3.5)));
-styles[4] = new Style("7th Style",70,new Array(new HiSpeed("HS0",1),
+styles[4] = new Style("7th Style",40,new Array(new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",2),
                                                 new HiSpeed("HS2",2.5),
                                                 new HiSpeed("HS3",3),
                                                 new HiSpeed("HS4",3.5)));
-styles[5] = new Style("8th Style",70,new Array(new HiSpeed("HS0",1),
+styles[5] = new Style("8th Style",118,new Array(new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",2),
                                                 new HiSpeed("HS2",2.5),
                                                 new HiSpeed("HS3",3),
@@ -129,7 +129,7 @@ styles[11] = new Style("GOLD-EMPRESS",46,new Array(new HiSpeed("HS0",1),
                                                 new HiSpeed("HS4",3.5),
                                                 new HiSpeed("HS4.5",3.75),
                                                 new HiSpeed("HS5",4)));
-styles[12] = new Style("Sakura",70,new Array(new HiSpeed("HS0",1),
+styles[12] = new Style("Sakura",118,new Array(new HiSpeed("HS0",1),
                                                 new HiSpeed("HS1",1.5),
                                                 new HiSpeed("HS2",2),
                                                 new HiSpeed("HS3",2.5),
